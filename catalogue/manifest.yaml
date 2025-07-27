@@ -37,13 +37,13 @@ spec:
         component: catalogue
         project: roboshop
         tier: app
-  spec:
-    containers:
-    - name: catalogue
-      image: nareshkumart/catalogue:v1
-      envFrom:
-      - configMapRef:
-          name: catalogue
+    spec:
+      containers:
+      - name: catalogue
+        image: nareshkumart/catalogue:v1
+        envFrom:
+        - configMapRef:
+            name: catalogue
 
 
 ---
