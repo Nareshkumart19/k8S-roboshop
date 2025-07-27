@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        iamge: nareshkumart/mongodb:v1
+        image: nareshkumart/mongodb:v1
   
 ---
 
