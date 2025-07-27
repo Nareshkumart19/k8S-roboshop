@@ -44,7 +44,7 @@ spec:
         image: nareshkumart/mysql:v1
         envFrom:
         - secretRef:
-          name: mysql
+            name: mysql
   
 ---
 
