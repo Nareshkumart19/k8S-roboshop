@@ -16,7 +16,7 @@ spec:
       component: mongodb
       project: roboshop
       tier: database
-
+  # This is pod definition
   template:
     metadata: 
       labels: 
